@@ -3,3 +3,4 @@
 # games.json and marquees/.
 ~/opengw/build-pi/opengw-1.0.0.vpk          https://github.com/Goldfinch2/opengw        v1.0.0  GPL-3.0
 ~/neverball-vp/build-pi/neverball-1.0.0.vpk https://github.com/Goldfinch2/neverball-vp  v1.0.0  GPL-2.0-or-later
+~/gltron-vp/build-pi/gltron-1.0.0.vpk       https://github.com/Goldfinch2/gltron-vp     v1.0.0  GPL-2.0-or-later
