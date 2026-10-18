@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "updated": "2026-10-18",
+  "games": [
+    {
+      "id": "opengw",
+      "name": "Geometry Wars",
+      "manufacturer": "Other",
+      "author": "Peter Hirschberg, VectorPie port",
+      "description": "Twin-stick shooter on a warping grid (OpenGW)",
+      "version": "1.0.0",
+      "sdk": "0.1",
+      "license": "GPL-3.0",
+      "source": "https://github.com/Goldfinch2/opengw",
+      "marquee": "marquees/opengw.png",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/opengw/releases/download/v1.0.0/opengw-1.0.0.vpk",
+        "size": 71363739,
+        "sha256": "58a79d25200a246fc4b1446eb0907a7934d98a44cba8bb8176bc2bfa7998e9e3"
+      }
+    },
+    {
+      "id": "neverball",
+      "name": "Neverball",
+      "manufacturer": "Other",
+      "author": "Robert Kooima and the Neverball team, VectorPie port",
+      "description": "Tilt the floor to roll the ball through the maze, collect the coins and reach the goal",
+      "version": "1.0.0",
+      "sdk": "0.1",
+      "license": "GPL-2.0-or-later",
+      "source": "https://github.com/Goldfinch2/neverball-vp",
+      "marquee": "marquees/neverball.png",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/neverball-vp/releases/download/v1.0.0/neverball-1.0.0.vpk",
+        "size": 41254482,
+        "sha256": "e417a58e83d2833048755597fce01c775f8f1144e0600af933cf1ba254e178fd"
+      }
+    }
+  ]
+}

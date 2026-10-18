@@ -1,0 +1,5 @@
+# The store's games, one a line: the built package, its GitHub repository,
+# its release tag, its license. tools/make-index.py turns this into
+# games.json and marquees/.
+~/opengw/build-pi/opengw-1.0.0.vpk          https://github.com/Goldfinch2/opengw        v1.0.0  GPL-3.0
+~/neverball-vp/build-pi/neverball-1.0.0.vpk https://github.com/Goldfinch2/neverball-vp  v1.0.0  GPL-2.0-or-later
