@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "games": [
     {
       "id": "opengw",
@@ -42,15 +42,65 @@
       "manufacturer": "Other",
       "author": "Andreas Umbach, VectorPie port",
       "description": "Light cycles leave walls behind them. Make the others crash before you do",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "sdk": "0.1",
       "license": "GPL-2.0-or-later",
       "source": "https://github.com/Goldfinch2/gltron-vp",
       "marquee": "marquees/gltron.png",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/gltron-vp/releases/download/v1.0.0/gltron-1.0.0.vpk",
-        "size": 8224093,
-        "sha256": "ce8d9eb514914bc27cbf6963052f985772860027eeccce4901b7d4a4eaa8f328"
+        "url": "https://github.com/Goldfinch2/gltron-vp/releases/download/v1.1.0/gltron-1.1.0.vpk",
+        "size": 8248931,
+        "sha256": "8d8425bd677c4afb44c9d2e1e5f6b2dbd92d3e333074686aaa869b3898901105"
+      }
+    },
+    {
+      "id": "vpinball",
+      "name": "Vector Pinball",
+      "manufacturer": "Other",
+      "author": "Brian Nenninger (dozingcat), VectorPie port Oliver Carell (Endprodukt)",
+      "version": "0.1.0",
+      "sdk": "0.1",
+      "license": "GPL-3.0",
+      "source": "https://github.com/Endprodukt/Vector-Pinball",
+      "marquee": "marquees/vpinball.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/Vector-Pinball/releases/download/vectorpie-v0.1.0/vpinball-0.1.0.vpk",
+        "size": 7774862,
+        "sha256": "f78ef26964d8c976315b9283a79a0d5befa3ea362e3fb6fa8915830872cac50b"
+      }
+    },
+    {
+      "id": "openhexagon",
+      "name": "Open Hexagon",
+      "manufacturer": "Other",
+      "author": "Vittorio Romeo (game), VectorPie port",
+      "description": "Super Hexagon-like arcade game, levels from the original packs",
+      "version": "0.1.0",
+      "sdk": "0.1",
+      "license": "AFL-3.0",
+      "source": "https://github.com/Endprodukt/OpenHexagon",
+      "marquee": "marquees/openhexagon.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/OpenHexagon/releases/download/v0.1.0/openhexagon-0.1.0.vpk",
+        "size": 1882286,
+        "sha256": "9afcb2fe4e97b0f319e19d61e09bea91593e79800c5f19ffcf3c77a31fedeaad"
+      }
+    },
+    {
+      "id": "vectortron",
+      "name": "Vectortron",
+      "manufacturer": "Other",
+      "author": "Vectortron contributors",
+      "description": "A 3D vector tribute to Robotron 2084 - save the last human family",
+      "version": "0.1.1",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/Vectortron",
+      "marquee": "marquees/vectortron.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.1/vectortron-0.1.1.vpk",
+        "size": 1099467,
+        "sha256": "4d1eeb93ade7eea134092ce5112e89dc528d482b873fa027ce4487edab31570d"
       }
     }
   ]
