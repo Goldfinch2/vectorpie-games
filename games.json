@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "games": [
     {
       "id": "opengw",
@@ -101,6 +101,22 @@
         "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.1/vectortron-0.1.1.vpk",
         "size": 1099467,
         "sha256": "4d1eeb93ade7eea134092ce5112e89dc528d482b873fa027ce4487edab31570d"
+      }
+    },
+    {
+      "id": "starblade_emu",
+      "name": "Starblade Emulator",
+      "manufacturer": "Namco",
+      "description": "Space shooter on rails - the original game's code, its 3D world in vectors (needs MAME's starblad.zip)",
+      "version": "1.0.0",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Goldfinch2/starblade-emu-vp",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/starblade-emu-vp/releases/download/v1.0.0/starblade_emu-1.0.0.vpk",
+        "size": 521139,
+        "sha256": "3439004c4f394450ccda519fe1701151c6ea712ba8189154c72a46509798c195"
       }
     }
   ]
