@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "games": [
     {
       "id": "opengw",
@@ -108,15 +108,15 @@
       "name": "Starblade Emulator",
       "manufacturer": "Namco",
       "description": "Space shooter on rails - the original game's code, its 3D world in vectors (needs MAME's starblad.zip)",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Goldfinch2/system21-vp",
       "marquee": "marquees/starblade_emu.png",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/system21-vp/releases/download/v1.0.4/starblade_emu-1.0.4.vpk",
-        "size": 1486758,
-        "sha256": "c4d1d1d2ee1b06dd2d5d8802cee04300f8e8bcb54d8707d87ab668931eed5e30"
+        "url": "https://github.com/Goldfinch2/system21-vp/releases/download/v1.0.6/starblade_emu-1.0.6.vpk",
+        "size": 1503062,
+        "sha256": "90509300fd1e7172c090bc07d87bf8b9486761526df1eefebd2de9f46c03cad4"
       }
     }
   ]
