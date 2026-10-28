@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-28",
   "games": [
     {
       "id": "opengw",
@@ -117,6 +117,23 @@
         "url": "https://github.com/Goldfinch2/system21-vp/releases/download/v1.0.6/starblade_emu-1.0.6.vpk",
         "size": 1503062,
         "sha256": "90509300fd1e7172c090bc07d87bf8b9486761526df1eefebd2de9f46c03cad4"
+      }
+    },
+    {
+      "id": "beanrush",
+      "name": "Bean Rush",
+      "manufacturer": "Other",
+      "author": "VectorPie",
+      "description": "Ten beans, three obstacle races, one crown. Run, jump, dive and do not fall off",
+      "version": "0.1.0",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Goldfinch2/beanrush-vp",
+      "marquee": "marquees/beanrush.png",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/beanrush-vp/releases/download/0.1.0/beanrush-0.1.0.vpk",
+        "size": 4592479,
+        "sha256": "ec63c1c118c27fdd6378cba62e055178ddaa7bffe1cb579921cbc5c5380dd4f2"
       }
     }
   ]
