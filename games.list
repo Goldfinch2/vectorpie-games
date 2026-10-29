@@ -8,4 +8,4 @@
 ~/store-vpks/openhexagon-0.1.0.vpk          https://github.com/Endprodukt/OpenHexagon     v0.1.0            AFL-3.0
 ~/store-vpks/vectortron-0.1.1.vpk           https://github.com/Endprodukt/Vectortron      v0.1.1            none
 ~/store-vpks/starblade_emu-1.0.6.vpk       https://github.com/Goldfinch2/system21-vp  v1.0.6  none
-~/beanrush-vp/build-pi/beanrush-0.1.0.vpk  https://github.com/Goldfinch2/beanrush-vp  0.1.0   none
+~/store-vpks/beanrush-0.2.0.vpk  https://github.com/Goldfinch2/beanrush-vp  0.2.0   none

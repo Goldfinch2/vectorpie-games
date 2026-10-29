@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "games": [
     {
       "id": "opengw",
@@ -125,15 +125,15 @@
       "manufacturer": "Other",
       "author": "VectorPie",
       "description": "Ten beans, three obstacle races, one crown. Run, jump, dive and do not fall off",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Goldfinch2/beanrush-vp",
       "marquee": "marquees/beanrush.png",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/beanrush-vp/releases/download/0.1.0/beanrush-0.1.0.vpk",
-        "size": 4592479,
-        "sha256": "ec63c1c118c27fdd6378cba62e055178ddaa7bffe1cb579921cbc5c5380dd4f2"
+        "url": "https://github.com/Goldfinch2/beanrush-vp/releases/download/0.2.0/beanrush-0.2.0.vpk",
+        "size": 4595666,
+        "sha256": "abd4b2e00a76a0ec54c9068dc3f0080ca7ab3219116b356efbbdeaf6ffca2dfb"
       }
     }
   ]
