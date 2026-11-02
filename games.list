@@ -1,6 +1,6 @@
 # The store's games, one a line: the built package, its GitHub repository,
 # its release tag, its license. tools/make-index.py turns this into
-# games.json and marquees/.
+# games.json and marquees/. Screensavers (.vps) are listed here too.
 ~/opengw/build-pi/opengw-1.0.0.vpk          https://github.com/Goldfinch2/opengw        v1.0.0  GPL-3.0
 ~/neverball-vp/build-pi/neverball-1.0.0.vpk https://github.com/Goldfinch2/neverball-vp  v1.0.0  GPL-2.0-or-later
 ~/gltron-vp/build-pi/gltron-1.1.0.vpk       https://github.com/Goldfinch2/gltron-vp     v1.1.0  GPL-2.0-or-later
@@ -9,3 +9,6 @@
 ~/store-vpks/vectortron-0.1.1.vpk           https://github.com/Endprodukt/Vectortron      v0.1.1            none
 ~/store-vpks/starblade_emu-1.0.6.vpk       https://github.com/Goldfinch2/system21-vp  v1.0.6  none
 ~/store-vpks/beanrush-0.2.0.vpk  https://github.com/Goldfinch2/beanrush-vp  0.2.0   none
+~/VectorPie/sdk/build-pi/saver_spectrum-1.0.0.vps  https://github.com/Goldfinch2/VectorPie  1.1.13  MIT
+~/VectorPie/sdk/build-pi/saver_pulse-1.0.0.vps     https://github.com/Goldfinch2/VectorPie  1.1.13  MIT
+~/VectorPie/sdk/build-pi/saver_vu-1.0.0.vps        https://github.com/Goldfinch2/VectorPie  1.1.13  MIT

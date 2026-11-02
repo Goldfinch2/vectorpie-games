@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "games": [
     {
       "id": "opengw",
@@ -134,6 +134,59 @@
         "url": "https://github.com/Goldfinch2/beanrush-vp/releases/download/0.2.0/beanrush-0.2.0.vpk",
         "size": 4595666,
         "sha256": "abd4b2e00a76a0ec54c9068dc3f0080ca7ab3219116b356efbbdeaf6ffca2dfb"
+      }
+    }
+  ],
+  "screensavers": [
+    {
+      "id": "saver_spectrum",
+      "name": "Spectrum",
+      "manufacturer": "Other",
+      "author": "VectorPie",
+      "description": "The music as a spectrum analyzer that bumps on every beat",
+      "version": "1.0.0",
+      "sdk": "0.9",
+      "license": "MIT",
+      "source": "https://github.com/Goldfinch2/VectorPie",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_spectrum-1.0.0.vps",
+        "size": 240672,
+        "sha256": "f8a48ae47f356d04a730da6b369f652702f334e2f85027f4e805b2d2217847ca"
+      }
+    },
+    {
+      "id": "saver_pulse",
+      "name": "Pulse",
+      "manufacturer": "Other",
+      "author": "VectorPie",
+      "description": "A star of the spectrum and rings that leave it on every beat",
+      "version": "1.0.0",
+      "sdk": "0.9",
+      "license": "MIT",
+      "source": "https://github.com/Goldfinch2/VectorPie",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_pulse-1.0.0.vps",
+        "size": 241135,
+        "sha256": "06dd8e8f74ff94946ecaf0b21467fca22a0fbd7becd79340b10b6cf90da745a9"
+      }
+    },
+    {
+      "id": "saver_vu",
+      "name": "VU Meters",
+      "manufacturer": "Other",
+      "author": "VectorPie",
+      "description": "The music on two analog VU meters, left and right",
+      "version": "1.0.0",
+      "sdk": "0.9",
+      "license": "MIT",
+      "source": "https://github.com/Goldfinch2/VectorPie",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_vu-1.0.0.vps",
+        "size": 241554,
+        "sha256": "6d5e28e947ecff543746e253257788b076932fac22f44213dd3893d9c8234c69"
       }
     }
   ]

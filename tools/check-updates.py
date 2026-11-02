@@ -10,7 +10,7 @@
 #
 # For each line of games.list it finds, on the game's repository, the newest
 # published release (not a draft or a pre-release) carrying a package of the
-# same id (<id>-<version>.vpk), and reports:
+# same id (<id>-<version>.vpk, a screensaver's .vps), and reports:
 #   UPDATE     a newer release than the store's
 #   CHANGED    the store's own release file was replaced since (its SHA-256
 #              is not the store's): the index would send a wrong checksum
@@ -54,11 +54,11 @@ def entries():
         if not body:
             continue
         path, repo, tag, license_ = body.split()
-        m = re.match(r"(.+)-([0-9][^-]*)\.vpk$", os.path.basename(path))
+        m = re.match(r"(.+)-([0-9][^-]*)\.(vpk|vps)$", os.path.basename(path))
         if not m:
-            sys.exit("games.list line %d: %s is not <id>-<version>.vpk" % (n + 1, path))
+            sys.exit("games.list line %d: %s is not <id>-<version>.vpk (or .vps)" % (n + 1, path))
         out.append({"line": n, "path": path, "repo": repo, "tag": tag, "license": license_,
-                    "id": m.group(1), "version": m.group(2)})
+                    "id": m.group(1), "version": m.group(2), "ext": m.group(3)})
     return out
 
 
@@ -67,9 +67,9 @@ def owner_repo(url):
     return (m.group(1), m.group(2)) if m else (None, None)
 
 
-def vpk_of(release, game_id):
+def vpk_of(release, game_id, ext="vpk"):
     for a in release.get("assets", []):
-        if re.match(re.escape(game_id) + r"-[0-9][^-]*\.vpk$", a["name"]):
+        if re.match(re.escape(game_id) + r"-[0-9][^-]*\." + ext + "$", a["name"]):
             return a
     return None
 
@@ -83,7 +83,8 @@ def sha256(path):
 
 
 def check():
-    index = {g["id"]: g for g in json.load(open(INDEX))["games"]}
+    store = json.load(open(INDEX))
+    index = {g["id"]: g for g in store["games"] + store.get("screensavers", [])}
     games = entries()
     listed = {g["id"] for g in games}
     results = []
@@ -94,7 +95,7 @@ def check():
         mine = next((r for r in published if r["tag_name"] == g["tag"]), None)
         newest = None
         for r in sorted(published, key=lambda r: r["published_at"], reverse=True):
-            a = vpk_of(r, g["id"])
+            a = vpk_of(r, g["id"], g["ext"])
             if a:
                 newest = (r, a)
                 break
@@ -105,10 +106,10 @@ def check():
             res.update(status="UPDATE", new_tag=r["tag_name"], new_asset=a["name"], new_size=a["size"],
                        new_url=a["browser_download_url"], new_date=r["published_at"][:10],
                        new_notes=(r.get("body") or "").strip())
-        elif not mine or not vpk_of(mine, g["id"]):
+        elif not mine or not vpk_of(mine, g["id"], g["ext"]):
             res.update(status="MISSING", note="release %s or its package is gone" % g["tag"])
         else:
-            a = vpk_of(mine, g["id"])
+            a = vpk_of(mine, g["id"], g["ext"])
             digest = (a.get("digest") or "").replace("sha256:", "")
             if digest and stored.get("sha256") and digest != stored["sha256"]:
                 res.update(status="CHANGED", note="the release file was replaced (%s, %d bytes)" % (
@@ -135,7 +136,7 @@ def check():
             if not r:
                 continue
             for a in r.get("assets", []):
-                m = re.match(r"(.+)-([0-9][^-]*)\.vpk$", a["name"])
+                m = re.match(r"(.+)-([0-9][^-]*)\.(vpk|vps)$", a["name"])
                 if m and m.group(1) not in listed:
                     candidates.append({"repo": repo["html_url"], "tag": r["tag_name"], "asset": a["name"],
                                        "date": r["published_at"][:10], "known_repo": (owner, repo["name"]) in known})

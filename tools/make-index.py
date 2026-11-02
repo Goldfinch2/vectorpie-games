@@ -5,6 +5,9 @@
 # writes games.json: the fields the menu's INSTALL GAMES page shows, the
 # package's download link on the repository's release, its size and its
 # SHA-256 (checked by the menu before it installs).
+# Screensavers (a .vps, kind = screensaver in its game.ini) go in their own
+# list, "screensavers" (INSTALL SCREENSAVERS; older menus do not read it);
+# their entries are the same, the package still under "vpk".
 import datetime, hashlib, json, os, sys, tarfile
 
 FIELDS = ("id", "name", "manufacturer", "author", "description", "version", "sdk")
@@ -33,7 +36,7 @@ def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     listing = sys.argv[1] if len(sys.argv) > 1 else os.path.join(root, "games.list")
     os.makedirs(os.path.join(root, "marquees"), exist_ok=True)
-    games = []
+    games, savers = [], []
     for line in open(listing):
         line = line.split("#", 1)[0].strip()
         if not line:
@@ -45,6 +48,9 @@ def main():
             ini = manifest(tar.extractfile(top + "/game.ini").read().decode())
             if ini.get("id") != top:
                 sys.exit("%s: its folder is not its id" % path)
+            saver = ini.get("kind", "game") == "screensaver"
+            if saver != path.endswith(".vps"):
+                sys.exit("%s: a screensaver is a .vps (kind = screensaver), a game a .vpk" % path)
             marquee = ini.get("marquee", "marquee.png")
             try:
                 data = tar.extractfile(top + "/" + marquee).read()
@@ -64,9 +70,11 @@ def main():
                 "sha256": hashlib.sha256(blob).hexdigest(),
             },
         })
-        games.append(game)
+        (savers if saver else games).append(game)
         print("%-12s %-8s %s" % (game["id"], game["version"], game["vpk"]["url"]))
     index = {"format": 1, "updated": datetime.date.today().isoformat(), "games": games}
+    if savers:
+        index["screensavers"] = savers
     with open(os.path.join(root, "games.json"), "w", newline="\n") as f:
         json.dump(index, f, indent=2, ensure_ascii=False)
         f.write("\n")
