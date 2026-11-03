@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "games": [
     {
       "id": "opengw",
@@ -92,15 +92,15 @@
       "manufacturer": "Other",
       "author": "Vectortron contributors",
       "description": "A 3D vector tribute to Robotron 2084 - save the last human family",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/Vectortron",
       "marquee": "marquees/vectortron.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.1/vectortron-0.1.1.vpk",
-        "size": 1099467,
-        "sha256": "4d1eeb93ade7eea134092ce5112e89dc528d482b873fa027ce4487edab31570d"
+        "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.2/vectortron-0.1.2.vpk",
+        "size": 1095349,
+        "sha256": "d54eae058d3258146649727342ca7639d4a6bb8f35de1c9481946198c826ec77"
       }
     },
     {
