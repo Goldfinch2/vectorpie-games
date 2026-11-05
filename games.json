@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "games": [
     {
       "id": "opengw",
@@ -101,6 +101,22 @@
         "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.2/vectortron-0.1.2.vpk",
         "size": 1095349,
         "sha256": "d54eae058d3258146649727342ca7639d4a6bb8f35de1c9481946198c826ec77"
+      }
+    },
+    {
+      "id": "timepilot3d",
+      "name": "Time Pilot 3D",
+      "manufacturer": "Other",
+      "author": "Oliver Carell (Endprodukt)",
+      "version": "0.74.1",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/TimePilot3D",
+      "marquee": "marquees/timepilot3d.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/TimePilot3D/releases/download/v0.74.1/timepilot3d-0.74.1.vpk",
+        "size": 12243821,
+        "sha256": "90c4c61eb321dddd61dc3b71a4b07a1c14895ea89437c65286b65df145443069"
       }
     },
     {
