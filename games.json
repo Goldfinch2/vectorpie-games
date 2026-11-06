@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "games": [
     {
       "id": "opengw",
@@ -117,6 +117,23 @@
         "url": "https://github.com/Endprodukt/TimePilot3D/releases/download/v0.74.1/timepilot3d-0.74.1.vpk",
         "size": 12243821,
         "sha256": "90c4c61eb321dddd61dc3b71a4b07a1c14895ea89437c65286b65df145443069"
+      }
+    },
+    {
+      "id": "release",
+      "name": "Release",
+      "manufacturer": "Other",
+      "author": "Endprodukt (VectorPie version), Gimogames (original game), based on Malban's Vectrex version",
+      "description": "One button - press to grow the shield, release to destroy what is inside",
+      "version": "0.5.6",
+      "sdk": "0.9",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/ReleaseVectorPie",
+      "marquee": "marquees/release.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/ReleaseVectorPie/releases/download/v0.5.6/release-0.5.6.vpk",
+        "size": 3571987,
+        "sha256": "e65f6c238f6a9b028e26d26dca97f0519e64de6a270e5c0f0df9f9a2ac48356c"
       }
     },
     {
