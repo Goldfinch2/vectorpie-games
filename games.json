@@ -226,15 +226,15 @@
       "manufacturer": "Other",
       "author": "VectorPie",
       "description": "A star of the spectrum and rings that leave it on every beat",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "sdk": "0.9",
       "license": "MIT",
       "source": "https://github.com/Goldfinch2/VectorPie",
       "marquee": "",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_pulse-1.0.0.vps",
-        "size": 241135,
-        "sha256": "06dd8e8f74ff94946ecaf0b21467fca22a0fbd7becd79340b10b6cf90da745a9"
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_pulse-1.0.1/saver_pulse-1.0.1.vps",
+        "size": 241523,
+        "sha256": "a06a04c056b4dff82167afc4a01f54390862d81397d731c71513d940eac451fd"
       }
     },
     {
