@@ -209,15 +209,15 @@
       "manufacturer": "Other",
       "author": "VectorPie",
       "description": "The music as a spectrum analyzer that bumps on every beat",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "sdk": "0.9",
       "license": "MIT",
       "source": "https://github.com/Goldfinch2/VectorPie",
       "marquee": "",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_spectrum-1.0.0.vps",
-        "size": 240672,
-        "sha256": "f8a48ae47f356d04a730da6b369f652702f334e2f85027f4e805b2d2217847ca"
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_spectrum-1.0.1/saver_spectrum-1.0.1.vps",
+        "size": 240991,
+        "sha256": "a08e9686d098466abaa3a2082ae73d3b68954356aec2af0bfa63ab0bebf8355c"
       }
     },
     {
