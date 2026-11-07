@@ -53,7 +53,7 @@ def entries():
         body = line.split("#", 1)[0].strip()
         if not body:
             continue
-        path, repo, tag, license_ = body.split()
+        path, repo, tag, license_ = body.split()[:4]
         m = re.match(r"(.+)-([0-9][^-]*)\.(vpk|vps)$", os.path.basename(path))
         if not m:
             sys.exit("games.list line %d: %s is not <id>-<version>.vpk (or .vps)" % (n + 1, path))

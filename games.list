@@ -1,7 +1,9 @@
-# The store's games, one a line: the built package, its GitHub repository,
-# its release tag, its license. tools/make-index.py turns this into
-# games.json and marquees/. Screensavers (.vps) are listed here too.
-~/opengw/build-pi/opengw-1.0.0.vpk          https://github.com/Goldfinch2/opengw        v1.0.0  GPL-3.0
+# The store's games, one a line: the built package, the GitHub repository
+# of its release, its release tag, its license, and its source repository
+# when that is another one (Mario's packages are released here, in
+# vectorpie-games). tools/make-index.py turns this into games.json and
+# marquees/. Screensavers (.vps) are listed here too.
+~/opengw/build-pi/opengw-1.0.1.vpk          https://github.com/Goldfinch2/vectorpie-games  opengw-1.0.1  GPL-3.0  https://github.com/Goldfinch2/opengw
 ~/neverball-vp/build-pi/neverball-1.0.0.vpk https://github.com/Goldfinch2/neverball-vp  v1.0.0  GPL-2.0-or-later
 ~/gltron-vp/build-pi/gltron-1.1.0.vpk       https://github.com/Goldfinch2/gltron-vp     v1.1.0  GPL-2.0-or-later
 ~/store-vpks/vpinball-0.1.0.vpk             https://github.com/Endprodukt/Vector-Pinball  vectorpie-v0.1.0  GPL-3.0

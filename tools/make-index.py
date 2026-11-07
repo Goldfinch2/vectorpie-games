@@ -41,7 +41,8 @@ def main():
         line = line.split("#", 1)[0].strip()
         if not line:
             continue
-        path, repo, tag, license_ = line.split()
+        path, repo, tag, license_, *rest = line.split()
+        source = rest[0] if rest else repo
         path = os.path.expanduser(path)
         with tarfile.open(path, "r:gz") as tar:
             top = tar.getnames()[0].split("/")[0]
@@ -62,7 +63,7 @@ def main():
         game = {k: ini[k] for k in FIELDS if k in ini}
         game.update({
             "license": license_,
-            "source": repo,
+            "source": source,
             "marquee": marquee,
             "vpk": {
                 "url": "%s/releases/download/%s/%s" % (repo, tag, os.path.basename(path)),
