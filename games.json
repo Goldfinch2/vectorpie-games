@@ -42,15 +42,15 @@
       "manufacturer": "Other",
       "author": "Andreas Umbach, VectorPie port",
       "description": "Light cycles leave walls behind them. Make the others crash before you do",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "sdk": "0.1",
       "license": "GPL-2.0-or-later",
       "source": "https://github.com/Goldfinch2/gltron-vp",
       "marquee": "marquees/gltron.png",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/gltron-vp/releases/download/v1.1.0/gltron-1.1.0.vpk",
-        "size": 8248931,
-        "sha256": "8d8425bd677c4afb44c9d2e1e5f6b2dbd92d3e333074686aaa869b3898901105"
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/gltron-1.1.1/gltron-1.1.1.vpk",
+        "size": 8293993,
+        "sha256": "a03c922b81debbd3c38e277ca47171a38f0cfdd7f98b97fb7d70eff24bcefd28"
       }
     },
     {
