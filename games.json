@@ -243,15 +243,15 @@
       "manufacturer": "Other",
       "author": "VectorPie",
       "description": "The music on two analog VU meters, left and right",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "sdk": "0.9",
       "license": "MIT",
       "source": "https://github.com/Goldfinch2/VectorPie",
       "marquee": "",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/VectorPie/releases/download/1.1.13/saver_vu-1.0.0.vps",
-        "size": 241554,
-        "sha256": "6d5e28e947ecff543746e253257788b076932fac22f44213dd3893d9c8234c69"
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_vu-1.0.1/saver_vu-1.0.1.vps",
+        "size": 241892,
+        "sha256": "557841c84e8fa8cd90ae9bb87fdedae1e6e752ea65cbcf97416f281fc97d33d4"
       }
     }
   ]
