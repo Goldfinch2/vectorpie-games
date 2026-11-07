@@ -200,6 +200,23 @@
         "size": 4609840,
         "sha256": "e910558096a8d837e96a63adbc4b982ba03d32fb55feb0febfa09f91aa73de71"
       }
+    },
+    {
+      "id": "pewpew_live",
+      "name": "PewPew Live",
+      "manufacturer": "Other",
+      "author": "Jean-Francois Geyelin (game), VectorPie (cabinet port)",
+      "description": "Twin-stick shooter in vectors - left stick moves, right stick shoots. The game's own engine, run on the cabinet",
+      "version": "0.2.1",
+      "sdk": "0.9",
+      "license": "none",
+      "source": "https://github.com/Goldfinch2/pewpew-vp",
+      "marquee": "marquees/pewpew_live.png",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/pewpew_live-0.2.1/pewpew_live-0.2.1.vpk",
+        "size": 7666222,
+        "sha256": "767efa414bae92c02e74572261aebe6a6ee83d6397c240be1a3dc198695dec9c"
+      }
     }
   ],
   "screensavers": [
