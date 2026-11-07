@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "games": [
     {
       "id": "opengw",
@@ -134,6 +134,22 @@
         "url": "https://github.com/Endprodukt/ReleaseVectorPie/releases/download/v0.5.6/release-0.5.6.vpk",
         "size": 3571987,
         "sha256": "e65f6c238f6a9b028e26d26dca97f0519e64de6a270e5c0f0df9f9a2ac48356c"
+      }
+    },
+    {
+      "id": "mhpeenhanced",
+      "name": "Major Havoc PE Enhanced",
+      "manufacturer": "Atari",
+      "description": "Major Havoc - The Promised End (Jess M. Askey) on its own board in C. The ROMs come with it",
+      "version": "0.3.0",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/MajorHavocPEEnhanced",
+      "marquee": "marquees/mhpeenhanced.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/MajorHavocPEEnhanced/releases/download/v0.3.0/mhpeenhanced-0.3.0.vpk",
+        "size": 1559450,
+        "sha256": "cbe7fc5a6d76c1317a555cc15e41cdb094c4943f37dbef6fd56d4e60b69a99bb"
       }
     },
     {
