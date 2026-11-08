@@ -153,6 +153,22 @@
       }
     },
     {
+      "id": "tempest2000",
+      "name": "Tempest 2000",
+      "manufacturer": "Atari",
+      "description": "Jeff Minter's Tempest 2000, ported to the vector monitor",
+      "version": "0.3.0",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/Tempest2000Port",
+      "marquee": "marquees/tempest2000.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/Tempest2000Port/releases/download/v0.3.0/tempest2000-0.3.0-rom.vpk",
+        "size": 2058657,
+        "sha256": "1424219f19e6acfe41899a1fbc8bc828bd2977422502f7d43d6cf5cec17b5488"
+      }
+    },
+    {
       "id": "starblade_emu",
       "name": "Starblade Emulator",
       "manufacturer": "Namco",

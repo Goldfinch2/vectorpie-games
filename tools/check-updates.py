@@ -10,7 +10,8 @@
 #
 # For each line of games.list it finds, on the game's repository, the newest
 # published release (not a draft or a pre-release) carrying a package of the
-# same id (<id>-<version>.vpk, a screensaver's .vps), and reports:
+# same id (<id>-<version>.vpk, or <id>-<version>-<word>.vpk such as
+# tempest2000-0.3.0-rom.vpk; a screensaver's .vps), and reports:
 #   UPDATE     a newer release than the store's
 #   CHANGED    the store's own release file was replaced since (its SHA-256
 #              is not the store's): the index would send a wrong checksum
@@ -54,7 +55,7 @@ def entries():
         if not body:
             continue
         path, repo, tag, license_ = body.split()[:4]
-        m = re.match(r"(.+)-([0-9][^-]*)\.(vpk|vps)$", os.path.basename(path))
+        m = re.match(r"(.+?)-([0-9][^-]*)(?:-[a-z]+)?\.(vpk|vps)$", os.path.basename(path))
         if not m:
             sys.exit("games.list line %d: %s is not <id>-<version>.vpk (or .vps)" % (n + 1, path))
         out.append({"line": n, "path": path, "repo": repo, "tag": tag, "license": license_,
@@ -69,7 +70,7 @@ def owner_repo(url):
 
 def vpk_of(release, game_id, ext="vpk"):
     for a in release.get("assets", []):
-        if re.match(re.escape(game_id) + r"-[0-9][^-]*\." + ext + "$", a["name"]):
+        if re.match(re.escape(game_id) + r"-[0-9][^-]*(?:-[a-z]+)?\." + ext + "$", a["name"]):
             return a
     return None
 
@@ -136,7 +137,7 @@ def check():
             if not r:
                 continue
             for a in r.get("assets", []):
-                m = re.match(r"(.+)-([0-9][^-]*)\.(vpk|vps)$", a["name"])
+                m = re.match(r"(.+?)-([0-9][^-]*)(?:-[a-z]+)?\.(vpk|vps)$", a["name"])
                 if m and m.group(1) not in listed:
                     candidates.append({"repo": repo["html_url"], "tag": r["tag_name"], "asset": a["name"],
                                        "date": r["published_at"][:10], "known_repo": (owner, repo["name"]) in known})
