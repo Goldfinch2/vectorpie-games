@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "games": [
     {
       "id": "opengw",
@@ -269,6 +269,125 @@
         "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_vu-1.0.1/saver_vu-1.0.1.vps",
         "size": 241892,
         "sha256": "557841c84e8fa8cd90ae9bb87fdedae1e6e752ea65cbcf97416f281fc97d33d4"
+      }
+    },
+    {
+      "id": "saver_clock",
+      "name": "Clock",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "The time on many faces (analog, digital, flip, binary, words, nixie), with date and weather",
+      "version": "0.7.1",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_clock-0.7.1.vps",
+        "size": 706535,
+        "sha256": "048292e6a7c092ab25e9ed7763a318226ab9921261535b553141856a531ad6bd"
+      }
+    },
+    {
+      "id": "saver_constellations",
+      "name": "Constellations",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "A slow tour of the real night sky, constellation by constellation",
+      "version": "0.1.1",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_constellations-0.1.1.vps",
+        "size": 653953,
+        "sha256": "68f6db015b4cf339b6fdb1fc5bd6bd74bc39ec221874136b35cc3461d6a27c02"
+      }
+    },
+    {
+      "id": "saver_digitalrain",
+      "name": "Digital Rain",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "Green code raining down, and now and then a game's name in it",
+      "version": "0.2.0",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_digitalrain-0.2.0.vps",
+        "size": 645341,
+        "sha256": "40121f0fc315432d31c6d7d68785b36d34dbd5316630378663e3945bf08d3d47"
+      }
+    },
+    {
+      "id": "saver_labyrinth",
+      "name": "Labyrinth",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "A walk through one maze after another",
+      "version": "0.1.1",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_labyrinth-0.1.1.vps",
+        "size": 680693,
+        "sha256": "b539cf365837e5d3e94994e5528a3a9ea6410cf7d8b0c5fe56726a86b8dcd261"
+      }
+    },
+    {
+      "id": "saver_neondrive",
+      "name": "Neon Drive",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "An endless drive into an 80s sunset, to the music",
+      "version": "0.7.2",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_neondrive-0.7.2.vps",
+        "size": 710181,
+        "sha256": "b37dafeda4da3ac07615cdf0e4023e66be17bb9a9335e7d8e42194c77591ef08"
+      }
+    },
+    {
+      "id": "saver_neonpeaks",
+      "name": "Neon Peaks",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "A flight down a neon valley, the mountains raised by the music",
+      "version": "0.1.2",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_neonpeaks-0.1.2.vps",
+        "size": 677654,
+        "sha256": "4ae4e8fa4b53c93eecf466e3f07a1060888e709abef26c94622a4e9f4da630ce"
+      }
+    },
+    {
+      "id": "saver_neonridge",
+      "name": "Neon Ridge",
+      "manufacturer": "Other",
+      "author": "VectorPie Screensaver",
+      "description": "Starlit mountains over a neon plain, a light trail across it",
+      "version": "0.1.2",
+      "sdk": "1.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/VectorPieScreensavers",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/VectorPieScreensavers/releases/download/screensavers-2026-11-08/saver_neonridge-0.1.2.vps",
+        "size": 677995,
+        "sha256": "676b848f92d9803b4c219948fce70914d3972cb5e70448f884b04ab0fe8858eb"
       }
     }
   ]
