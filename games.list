@@ -5,7 +5,7 @@
 # marquees/. Screensavers (.vps) are listed here too.
 ~/opengw/build-pi/opengw-1.0.1.vpk          https://github.com/Goldfinch2/vectorpie-games  opengw-1.0.1  GPL-3.0  https://github.com/Goldfinch2/opengw
 ~/neverball-vp/build-pi/neverball-1.0.1.vpk https://github.com/Goldfinch2/vectorpie-games  neverball-1.0.1  GPL-2.0-or-later  https://github.com/Goldfinch2/neverball-vp
-~/gltron-vp/build-pi/gltron-1.1.1.vpk       https://github.com/Goldfinch2/vectorpie-games  gltron-1.1.1  GPL-2.0-or-later  https://github.com/Goldfinch2/gltron-vp
+~/gltron-vp/build-pi/gltron-1.1.2.vpk       https://github.com/Goldfinch2/vectorpie-games  gltron-1.1.2  GPL-2.0-or-later  https://github.com/Goldfinch2/gltron-vp
 ~/store-vpks/vpinball-0.1.0.vpk             https://github.com/Endprodukt/Vector-Pinball  vectorpie-v0.1.0  GPL-3.0
 ~/store-vpks/openhexagon-0.1.0.vpk          https://github.com/Endprodukt/OpenHexagon     v0.1.0            AFL-3.0
 ~/store-vpks/vectortron-0.1.2.vpk           https://github.com/Endprodukt/Vectortron      v0.1.2            none
