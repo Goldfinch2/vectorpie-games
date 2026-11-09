@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "games": [
     {
       "id": "opengw",
@@ -166,6 +166,54 @@
         "url": "https://github.com/Endprodukt/Tempest2000Port/releases/download/v0.3.0/tempest2000-0.3.0-rom.vpk",
         "size": 2058657,
         "sha256": "1424219f19e6acfe41899a1fbc8bc828bd2977422502f7d43d6cf5cec17b5488"
+      }
+    },
+    {
+      "id": "tpenhanced",
+      "name": "Tempest Enhanced",
+      "manufacturer": "Atari",
+      "description": "Tempest (1981) on its own board in C, enhanced. Needs the MAME tempest ROM set",
+      "version": "0.1.35",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/TempestEnhanced",
+      "marquee": "marquees/tpenhanced.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/TempestEnhanced/releases/download/v0.1.35/tpenhanced-0.1.35.vpk",
+        "size": 1440810,
+        "sha256": "f0be726c29182b2d2959a1bb88970a14343e00bffd214e01e80b54b5bdd39d81"
+      }
+    },
+    {
+      "id": "bzenhanced",
+      "name": "Battlezone Enhanced",
+      "manufacturer": "Atari",
+      "description": "Battlezone (1980) in C, enhanced. Needs the MAME bzone ROM set",
+      "version": "0.1.21",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/BattlezoneEnhanced",
+      "marquee": "marquees/bzenhanced.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/BattlezoneEnhanced/releases/download/v0.1.21/bzenhanced-0.1.21.vpk",
+        "size": 4626945,
+        "sha256": "99290f14fc1a304721be475f3e5b30e1a18616a6378716dc5080a19b8031d841"
+      }
+    },
+    {
+      "id": "rbenhanced",
+      "name": "Red Baron Enhanced",
+      "manufacturer": "Atari",
+      "description": "Red Baron (1981) in C, enhanced. Needs the MAME redbaron ROM set",
+      "version": "0.5.1",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/RedBaronEnhanced",
+      "marquee": "marquees/rbenhanced.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/RedBaronEnhanced/releases/download/v0.5.1/rbenhanced-0.5.1.vpk",
+        "size": 1901008,
+        "sha256": "31e5a7e343307cf1b57c820a53e85a2daee319f7fad644b3e73c26a7067334f1"
       }
     },
     {
