@@ -217,6 +217,22 @@
       }
     },
     {
+      "id": "swenhanced",
+      "name": "Star Wars Enhanced",
+      "manufacturer": "Atari",
+      "description": "Star Wars (1983) in C, enhanced. Needs the MAME starwars1 ROM set",
+      "version": "0.3.32",
+      "sdk": "0.1",
+      "license": "none",
+      "source": "https://github.com/Endprodukt/StarWarsEnhanced",
+      "marquee": "marquees/swenhanced.png",
+      "vpk": {
+        "url": "https://github.com/Endprodukt/StarWarsEnhanced/releases/download/v0.3.32/swenhanced-0.3.32.vpk",
+        "size": 2921711,
+        "sha256": "2f4fea88b645d07aa2ce57abf70011ad1e442246108a488f4ac8156d97eef69c"
+      }
+    },
+    {
       "id": "starblade_emu",
       "name": "Starblade Emulator",
       "manufacturer": "Namco",
