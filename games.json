@@ -249,22 +249,6 @@
       }
     },
     {
-      "id": "cybersled_emu",
-      "name": "Cyber Sled Emulator",
-      "manufacturer": "Namco",
-      "description": "Tank duels in an arena - the original game's code, its 3D world in vectors (needs MAME's cybsled.zip)",
-      "version": "1.0.1",
-      "sdk": "0.1",
-      "license": "none",
-      "source": "https://github.com/Goldfinch2/system21-vp",
-      "marquee": "marquees/cybersled_emu.png",
-      "vpk": {
-        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/cybersled_emu-1.0.1/cybersled_emu-1.0.1.vpk",
-        "size": 2119507,
-        "sha256": "783374455d6be1408ba1d66d9fe34097a8dfbaacb546c4029ff4adce104c5c69"
-      }
-    },
-    {
       "id": "beanrush",
       "name": "Bean Rush",
       "manufacturer": "Other",
