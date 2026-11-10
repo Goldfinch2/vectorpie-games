@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "games": [
     {
       "id": "opengw",
@@ -75,15 +75,15 @@
       "manufacturer": "Other",
       "author": "Vittorio Romeo (game), VectorPie port",
       "description": "Super Hexagon-like arcade game, levels from the original packs",
-      "version": "0.1.0",
-      "sdk": "0.1",
+      "version": "0.2.0",
+      "sdk": "0.9",
       "license": "AFL-3.0",
       "source": "https://github.com/Endprodukt/OpenHexagon",
       "marquee": "marquees/openhexagon.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/OpenHexagon/releases/download/v0.1.0/openhexagon-0.1.0.vpk",
-        "size": 1882286,
-        "sha256": "9afcb2fe4e97b0f319e19d61e09bea91593e79800c5f19ffcf3c77a31fedeaad"
+        "url": "https://github.com/Endprodukt/OpenHexagon/releases/download/v0.2.0/openhexagon-0.2.0.vpk",
+        "size": 1943707,
+        "sha256": "612e8665742621bb71b4d89c8b93029c2b38f6e2d6740fc143bdb270ace951db"
       }
     },
     {
@@ -92,15 +92,15 @@
       "manufacturer": "Other",
       "author": "Vectortron contributors",
       "description": "A 3D vector tribute to Robotron 2084 - save the last human family",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/Vectortron",
       "marquee": "marquees/vectortron.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.2/vectortron-0.1.2.vpk",
-        "size": 1095349,
-        "sha256": "d54eae058d3258146649727342ca7639d4a6bb8f35de1c9481946198c826ec77"
+        "url": "https://github.com/Endprodukt/Vectortron/releases/download/v0.1.3/vectortron-0.1.3.vpk",
+        "size": 1225562,
+        "sha256": "7f175140c1a5dc80a7c99a1b9af441fac0e924beca9b97d991b921a915bb3316"
       }
     },
     {
@@ -173,15 +173,15 @@
       "name": "Tempest Enhanced",
       "manufacturer": "Atari",
       "description": "Tempest (1981) on its own board in C, enhanced. Needs the MAME tempest ROM set",
-      "version": "0.1.35",
+      "version": "0.1.36",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/TempestEnhanced",
       "marquee": "marquees/tpenhanced.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/TempestEnhanced/releases/download/v0.1.35/tpenhanced-0.1.35.vpk",
-        "size": 1440810,
-        "sha256": "f0be726c29182b2d2959a1bb88970a14343e00bffd214e01e80b54b5bdd39d81"
+        "url": "https://github.com/Endprodukt/TempestEnhanced/releases/download/v0.1.36/tpenhanced-0.1.36.vpk",
+        "size": 1574891,
+        "sha256": "d59b2df5f2cf5b8c28c65c9f1a325046d4293a773126965fae332057643c4bd4"
       }
     },
     {
@@ -189,15 +189,15 @@
       "name": "Battlezone Enhanced",
       "manufacturer": "Atari",
       "description": "Battlezone (1980) in C, enhanced. Needs the MAME bzone ROM set",
-      "version": "0.1.21",
+      "version": "0.2.0",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/BattlezoneEnhanced",
       "marquee": "marquees/bzenhanced.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/BattlezoneEnhanced/releases/download/v0.1.21/bzenhanced-0.1.21.vpk",
-        "size": 4626945,
-        "sha256": "99290f14fc1a304721be475f3e5b30e1a18616a6378716dc5080a19b8031d841"
+        "url": "https://github.com/Endprodukt/BattlezoneEnhanced/releases/download/v0.2.0/bzenhanced-0.2.0.vpk",
+        "size": 4760549,
+        "sha256": "e68129d3c1748cf125bccd87b512cbc578d5f5bbf9d50b6ff52a91602c1d60a4"
       }
     },
     {
@@ -205,15 +205,15 @@
       "name": "Red Baron Enhanced",
       "manufacturer": "Atari",
       "description": "Red Baron (1981) in C, enhanced. Needs the MAME redbaron ROM set",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/RedBaronEnhanced",
       "marquee": "marquees/rbenhanced.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/RedBaronEnhanced/releases/download/v0.5.1/rbenhanced-0.5.1.vpk",
-        "size": 1901008,
-        "sha256": "31e5a7e343307cf1b57c820a53e85a2daee319f7fad644b3e73c26a7067334f1"
+        "url": "https://github.com/Endprodukt/RedBaronEnhanced/releases/download/v0.6.0/rbenhanced-0.6.0.vpk",
+        "size": 2000942,
+        "sha256": "04239807aaa0b32eeee7b247c270c1319dfb65ff7cb13757ccaa63da6cd3502d"
       }
     },
     {
@@ -221,15 +221,15 @@
       "name": "Star Wars Enhanced",
       "manufacturer": "Atari",
       "description": "Star Wars (1983) in C, enhanced. Needs the MAME starwars1 ROM set",
-      "version": "0.3.32",
-      "sdk": "0.1",
+      "version": "0.3.33",
+      "sdk": "0.9",
       "license": "none",
       "source": "https://github.com/Endprodukt/StarWarsEnhanced",
       "marquee": "marquees/swenhanced.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/StarWarsEnhanced/releases/download/v0.3.32/swenhanced-0.3.32.vpk",
-        "size": 2921711,
-        "sha256": "2f4fea88b645d07aa2ce57abf70011ad1e442246108a488f4ac8156d97eef69c"
+        "url": "https://github.com/Endprodukt/StarWarsEnhanced/releases/download/v0.3.33/swenhanced-0.3.33.vpk",
+        "size": 5439472,
+        "sha256": "bc31b198631b42edd7a109320fe3bf6175326d8dfbbf5e64b882f8a26c9b4b21"
       }
     },
     {

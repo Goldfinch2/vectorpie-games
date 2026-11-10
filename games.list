@@ -7,16 +7,16 @@
 ~/neverball-vp/build-pi/neverball-1.0.1.vpk https://github.com/Goldfinch2/vectorpie-games  neverball-1.0.1  GPL-2.0-or-later  https://github.com/Goldfinch2/neverball-vp
 ~/gltron-vp/build-pi/gltron-1.1.2.vpk       https://github.com/Goldfinch2/vectorpie-games  gltron-1.1.2  GPL-2.0-or-later  https://github.com/Goldfinch2/gltron-vp
 ~/store-vpks/vpinball-0.1.0.vpk             https://github.com/Endprodukt/Vector-Pinball  vectorpie-v0.1.0  GPL-3.0
-~/store-vpks/openhexagon-0.1.0.vpk          https://github.com/Endprodukt/OpenHexagon     v0.1.0            AFL-3.0
-~/store-vpks/vectortron-0.1.2.vpk           https://github.com/Endprodukt/Vectortron      v0.1.2            none
+~/store-vpks/openhexagon-0.2.0.vpk          https://github.com/Endprodukt/OpenHexagon     v0.2.0            AFL-3.0
+~/store-vpks/vectortron-0.1.3.vpk           https://github.com/Endprodukt/Vectortron      v0.1.3            none
 ~/store-vpks/timepilot3d-0.74.1.vpk          https://github.com/Endprodukt/TimePilot3D     v0.74.1           none
 ~/store-vpks/release-0.5.6.vpk             https://github.com/Endprodukt/ReleaseVectorPie  v0.5.6          none
 ~/store-vpks/mhpeenhanced-0.3.1.vpk       https://github.com/Endprodukt/MajorHavocPEEnhanced  v0.3.1  none
 ~/store-vpks/tempest2000-0.3.1-rom.vpk  https://github.com/Endprodukt/Tempest2000Port  v0.3.1  none
-~/store-vpks/tpenhanced-0.1.35.vpk  https://github.com/Endprodukt/TempestEnhanced  v0.1.35  none
-~/store-vpks/bzenhanced-0.1.21.vpk  https://github.com/Endprodukt/BattlezoneEnhanced  v0.1.21  none
-~/store-vpks/rbenhanced-0.5.1.vpk  https://github.com/Endprodukt/RedBaronEnhanced  v0.5.1  none
-~/store-vpks/swenhanced-0.3.32.vpk  https://github.com/Endprodukt/StarWarsEnhanced  v0.3.32  none
+~/store-vpks/tpenhanced-0.1.36.vpk  https://github.com/Endprodukt/TempestEnhanced  v0.1.36  none
+~/store-vpks/bzenhanced-0.2.0.vpk  https://github.com/Endprodukt/BattlezoneEnhanced  v0.2.0  none
+~/store-vpks/rbenhanced-0.6.0.vpk  https://github.com/Endprodukt/RedBaronEnhanced  v0.6.0  none
+~/store-vpks/swenhanced-0.3.33.vpk  https://github.com/Endprodukt/StarWarsEnhanced  v0.3.33  none
 ~/store-vpks/starblade_emu-1.0.7.vpk       https://github.com/Goldfinch2/vectorpie-games  starblade_emu-1.0.7  none  https://github.com/Goldfinch2/system21-vp
 ~/store-vpks/cybersled_emu-1.0.1.vpk       https://github.com/Goldfinch2/vectorpie-games  cybersled_emu-1.0.1  none  https://github.com/Goldfinch2/system21-vp
 ~/store-vpks/beanrush-0.2.1.vpk  https://github.com/Goldfinch2/vectorpie-games  beanrush-0.2.1  none  https://github.com/Goldfinch2/beanrush-vp
