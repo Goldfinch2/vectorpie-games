@@ -173,15 +173,15 @@
       "name": "Tempest Enhanced",
       "manufacturer": "Atari",
       "description": "Tempest (1981) on its own board in C, enhanced. Needs the MAME tempest ROM set",
-      "version": "0.1.36",
+      "version": "0.1.37",
       "sdk": "0.1",
       "license": "none",
       "source": "https://github.com/Endprodukt/TempestEnhanced",
       "marquee": "marquees/tpenhanced.png",
       "vpk": {
-        "url": "https://github.com/Endprodukt/TempestEnhanced/releases/download/v0.1.36/tpenhanced-0.1.36.vpk",
-        "size": 1574891,
-        "sha256": "d59b2df5f2cf5b8c28c65c9f1a325046d4293a773126965fae332057643c4bd4"
+        "url": "https://github.com/Endprodukt/TempestEnhanced/releases/download/v0.1.37/tpenhanced-0.1.37.vpk",
+        "size": 1694681,
+        "sha256": "e0995228e6eabae0a4ed6f06453991d8a134f1a4ab2bb24ec4ea109620d150e9"
       }
     },
     {
