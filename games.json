@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "games": [
     {
       "id": "opengw",
@@ -333,6 +333,23 @@
         "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_vu-1.0.1/saver_vu-1.0.1.vps",
         "size": 241892,
         "sha256": "557841c84e8fa8cd90ae9bb87fdedae1e6e752ea65cbcf97416f281fc97d33d4"
+      }
+    },
+    {
+      "id": "saver_kobayashi",
+      "name": "Kobayashi Maru",
+      "manufacturer": "Other",
+      "author": "VectorPie",
+      "description": "The starship simulator's tactical display, plotting a course to the stranded freighter",
+      "version": "1.0.0",
+      "sdk": "0.9",
+      "license": "none",
+      "source": "https://github.com/Goldfinch2/vectorpie-games",
+      "marquee": "",
+      "vpk": {
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_kobayashi-1.0.0/saver_kobayashi-1.0.0.vps",
+        "size": 323637,
+        "sha256": "0f719bd446f6c8355dd59a7e06f24e624d3d18129674f22b807d08b07749d168"
       }
     },
     {
