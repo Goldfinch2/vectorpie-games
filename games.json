@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-18",
   "games": [
     {
       "id": "opengw",
@@ -341,15 +341,15 @@
       "manufacturer": "Other",
       "author": "VectorPie",
       "description": "The starship simulator's tactical display, plotting a course to the stranded freighter",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "sdk": "0.9",
       "license": "none",
       "source": "https://github.com/Goldfinch2/vectorpie-games",
       "marquee": "",
       "vpk": {
-        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_kobayashi-1.0.2/saver_kobayashi-1.0.2.vps",
-        "size": 329706,
-        "sha256": "c411b53f279c13f48581d4a3a741e23f5af6f55d7edd426769a5b77a682011cb"
+        "url": "https://github.com/Goldfinch2/vectorpie-games/releases/download/saver_kobayashi-1.0.3/saver_kobayashi-1.0.3.vps",
+        "size": 329604,
+        "sha256": "ceeca636f9a36ae90da08e20e08f3ac3be2c4b9fe70d7c943cb350faf4a665e3"
       }
     },
     {
